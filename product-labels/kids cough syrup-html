@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Zarbee's Coughsyrup</title>	
+		<link rel="stylesheet" type="text/css" href="css/coughsyrup-styles.css">
+	</head>
+	<body>
+
+	<header>
+		<h1><strong>Zarbee"s</strong></h1>
+		<p>Effective and Natural</p>
+	</header>
+
+		<div>
+	   		<p><mark>All Natural</mark></p>
+			<p>Children"s</p>
+			<p>Cough Syrup</p>
+        
+			<img src="http://img2.timeinc.net/people/i/2012/cbb/blog/121224/zarbees-240.jpg">
+		</div>
+
+		<div id= "first-child">
+			<p><strong>Safe and Effective for kids 12 and up!</strong></p>
+			<p>Pediatrician Approved</p>
+			<p>Soothes irritated throats</p>
+			<p>Clinically proven</p>
+			<p>100% Drug Free</p>
+		</div>
+		<footer>
+        	<p><mark>Grape Flavor</mark></p>
+        </footer>
+ 
+	</body>
+</html

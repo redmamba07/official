@@ -1,0 +1,21 @@
+body{
+	background-color: white;
+	margin: 0px;}
+
+
+header{
+	background-color: green;
+	width: 150px;
+	height: 50px;
+	position: relative;}
+
+h1{
+	font-style: sans-sarif;
+	color: white;}
+
+p{
+	font-style: sans-sarif;
+	color: yellow;}
+
+
+

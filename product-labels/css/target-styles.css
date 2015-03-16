@@ -1,0 +1,35 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+body{
+	background-color: yellow;
+	font-family: sans-serif;
+}
+
+.product-label div{
+	float: center;
+	font-size: 25px;
+	width: 500px;
+	float: left;
+	margin-right: 50px;
+
+
+}   
+
+.product-label img{
+	width:200px;
+	float: center;
+	padding: 10px;
+
+
+
+
+}
+
