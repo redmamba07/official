@@ -1,0 +1,148 @@
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+
+	background-color: red;
+	height: 2px;
+} 
+
+ul {
+	list-style: none;
+	background-color: hsla(240, 100%, 50%);
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+a {
+	color: hsla(0, 80%, 50%, 1);
+	text-decoration: none;
+}
+a:link {
+	color: hsla(100, 80%, 30%, 1);
+}
+
+a:visited {
+	color: hsla(200, 80%, 30%, 1);
+}
+
+a:hover {
+	color: hsla(300, 80%, 30%, 1);
+	text-decoration: underline;
+}
+
+a:active {
+	color: hsla(0, 80%, 50%, 1);
+}
+
+a::before {
+	content: "";
+	/*display: block;*/
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+}
+
+a::after {
+	content: "";
+	/*display: block;*/
+	width: 25px;
+	height: 25px;
+	background-color: red;
+}
+
+p::first-letter {
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+p::first-line {
+	color: red;
+}
+
+p::selection {
+	color: yellow;
+	background-color: green;
+}
+
+dialog::backdrop {
+	background-color: hsla(0, 0%, 0%, 1);
+}
+
+p {
+	background-color: hsla(220, 40%, 70%, 1);
+	position: relative;
+	border-radius: 10px;
+	padding: 5px;
+
+}
+
+p::after {
+	content: "";
+	display: block;
+	/*width: 30px;
+	height: 30px;
+	background-color: hsla(220, 40%, 70%, 1);*/
+	position: absolute;
+	right: 0%;
+
+	border-width: 0px 15px 15px 20px;
+	border-style: solid;
+	border-color: transparent transparent transparent hsla(220, 40%, 70%, 1);
+}
+
+
+
+
+
+
+
+
+
+/*
+p::-moz-selection {
+	color: yellow;
+	background-color: green;
+}
+
+p::-webkit-selection {
+	color: yellow;
+	background-color: green;
+}
+
+p::-ms-selection {
+	color: yellow;
+	background-color: green;
+}
+
+p::-o-selection {
+	color: yellow;
+	background-color: green;
+}
+*/
+
+
+
+
+
+
+/*
+--pseudo classes
+:first-child
+:last-child
+:nth-child( var)
+:first-of-type
+:last-of-type
+
+
+
+
+
+
+
+
+
