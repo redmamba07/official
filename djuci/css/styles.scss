@@ -1,0 +1,344 @@
+
+@import url(normalize.css);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@import url();
+
+$black: hsla(0, 0%, 21%, 1);
+$purple: hsla(318, 51%, 46%, 1);
+$green: hsla(100, 61%, 45%, 1);
+$red: hsla(3, 87%, 61%, 1);
+$orange: hsla(44, 100%, 48%, 1);
+$white: hsla(0, 100%, 100%, 1);
+$blue: hsla(200, 50%, 50%, 1);
+$gray: hsla(0, 0%, 94%, 1);
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;}
+
+body {
+	background-color: $gray;
+	margin: 0;}
+
+i {
+	margin-right: 20px;
+	margin-left: 5px;}
+
+#nav1 { 
+	display: flex;
+	background-color: $black;
+	color: $white;}
+
+#d1,#d2,#d3,#d4,#d5 {
+  	display: flex;
+  	padding: 25px;}
+
+#d1 {
+	margin-left: 31px;
+	padding-left: 40px;}
+
+#d3 {
+	color: $green;}
+
+#d5 {
+	color: blue;}
+
+#d4 {
+	padding-left: 238px;
+	margin-left: 350px;}
+
+#nav2 {
+	background-color: $gray;
+	justify-content: center;
+	align-items: center;
+	font-weight: bolder;
+	display: flex;
+	color: $white;
+	height: 200px;
+	width: 100%;}
+
+#DJUCI {
+	background-color: $white;
+	justify-content: center;
+	border-image: $black;
+	align-items: center;
+	display: flex;
+	height: 138px;
+	margin-right: 20px;
+	width: 220px;}
+
+#HOME {
+	background-color: $black;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 138px;
+	width: 165px;}
+
+#ABOUT {
+	background-color: $green;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 138px;
+	width: 165px;}
+
+#PORTFOLIO {
+	background-color: $orange;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 138px;
+	width: 165px;}
+
+#BLOG {
+	background-color: $red;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 138px;
+	width: 165px;}
+
+#CONTACTS {
+	background-color: $purple;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 138px;
+	width: 165px;}
+
+#WOMAN {
+	background-image: url(../img/slider-img1.jpg);
+	background-position: top center;
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+	width: 100%;
+	display: flex;
+	color: $white;
+	margin-bottom: 25px;
+ 		h1{
+ 			font-family: italic;
+ 			font-weight: thinner;
+ 			font-size: 150px;
+ 			margin: 0;
+ 			padding-left: 150px;
+ 			margin-left: 150px;
+ 			margin-top: 200px;}
+ 		h2 {
+ 			margin-bottom: 100px;
+ 			margin-top: 0;
+ 			font-size: 100px;
+ 			font-weight: 100;
+ 			font-family: italic;}}
+ 
+#MEETING1, #MEETING3 {
+	display: flex;
+	flex: none;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+#GROUP1A {
+	flex: 1;
+	background-color: $white;
+	color: $black;
+	margin-right: 25px;
+	
+		h1{
+			align-items: start;
+			margin: 82 auto;
+			padding-left: 90px;
+ 			font-family: italic;
+ 			font-weight: thinner;
+ 			font-size: 75px;
+ 			}
+ 		p {
+ 			margin: -10 auto;
+ 			padding-left: 27px;
+ 			font-family: italic;
+ 			font-size: 37px;
+ 			font-weight: 200;
+ 			}}
+
+#GROUP1B {
+	flex: 1;
+	img {
+		width: 100%;}}
+
+#MEETING2 {
+	display: flex;
+	flex: none;
+	margin: 17;
+	margin-left: 134px;
+	width: 83%;
+}
+
+#GROUP2A {
+	display: flex;
+	background-color: $blue;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	width: 400px;
+	margin: 25px;
+	img {
+		
+
+	}}
+
+#GROUP2B {
+	display: flex;
+	background-color: $green;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	width: 400px;
+	margin: 25px;
+	img {
+		justify-content: column;
+	}}
+
+#GROUP2C {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $orange;
+	height: 400px;
+	width: 400px;
+	margin: 25px;
+	img {}}
+
+
+
+
+
+
+
+
+ 		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	@import url(normalize.css);
+@import url(maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@import url();
+
+
+
+$black: hsla(0, 0%, 31%, 1);
+$purple: hsla(318, 51%, 46%, 1);
+$green: hsla(100, 61%, 45%, 1);
+$red: hsla(3, 87%, 61%, 1);
+$orange: hsla(44, 100%, 48%, 1);
+$white: hsla(0, 100%, 100%, 1);
+
+body {
+	background-color: hsla(0 ,0%, 94%, 1);
+}
+body, html {
+	padding: 0;
+	margin: 0;}
+
+nav 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 15% 0;
+	li {
+		flex: 1;
+		padding: 60px 20px;}
+	li:first-of-type {
+		height: 140px;
+		padding-bottom: 60px;
+		flex: 2;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	li:nth-of-type(2) {
+		margin-left: auto;}}
+
+#utilnav {
+	display: flex;
+	background-color: $black;
+	color: $white;
+	font-size: 80%;
+	padding: 20px;
+
+	li {
+		margin: 0 10px;
+		list-style: none;}}
+	
+nav {
+	a {
+		color: $white;
+		text-decoration: none;}
+	
+	ul {
+		li {
+			text-align: center;
+			list-style: none;}
+		
+		li:nth-of-type(1) {
+			background-color: $white;
+			margin-right: 50px;}
+		li:nth-of-type(2) {
+			background-color:$black;}
+		li:nth-of-type(3) {
+			background-color:$green;}
+		li:nth-of-type(4) {
+			background-color:$orange;}
+		li:nth-of-type(5) {
+			background-color:$red;}
+		li:nth-of-type(6) {
+			background-color:purple;}}}
+		
+body {	background-color: white;
+	height: 100%; 
+	min-height: 100vh;
+	margin: 0;
+}
+nav {
+	background-color: black;
+	height: 100px;
+	width: 100%;
+}
+img {
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+section:first-of-type; {
+
+}*/
+
+
+
+
+
+
+
